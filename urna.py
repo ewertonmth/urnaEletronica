@@ -1,8 +1,10 @@
+#importação de bibliotecas
 import pygame
 import time 
 
 #votação
 def main(): 
+    #importação do som
     pygame.init()
     som_a_tocar = pygame.mixer.Sound("assets/confirma-urna.mp3")
 
